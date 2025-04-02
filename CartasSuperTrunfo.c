@@ -64,13 +64,13 @@ int main() {
     printf("Àrea:\n");
     scanf("%f", &area);
 
-        printf("Digite o PIB:\n");
-        scanf("%f", &pib);
+    printf("Digite o PIB:\n");
+    scanf("%f", &pib);
 
-        printf("Número de pontos turistico:\n");
-        scanf("%i", &numero);
+    printf("Número de pontos turistico:\n");
+    scanf("%i", &numero);
 
-        printf("O nome do estado é:%s - O código da cidade é:%s - Digite o nome da cidade:%s - Total da população:%f - O tamanho da área é:%f - O PIB é:%f - Total de pontos turisticos é:%i \n\n", estado, código, cidade, populaçao, área, pib, numero);
+    printf("O nome do estado é:%s - O código da cidade é:%s - Digite o nome da cidade:%s - Total da população:%f - O tamanho da área é:%f - O PIB é:%f - Total de pontos turisticos é:%i \n\n", estado, código, cidade, populaçao, área, pib, numero);
         return 0;
 
 

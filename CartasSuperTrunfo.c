@@ -5,7 +5,7 @@ int main(){
     /*Variaveis carta A01*/
 
     char estado 01 [20], codigo_carta01[5], nome_cidade01[20];
-    int populacao01, pontos_turistico01;
+    int populacao01, pontos_tu01;
     float area01, pib01;
 
     printf(" ** Bem vindo ao jogo super trunfo! **\n");
@@ -22,7 +22,7 @@ int main(){
       printf("por favor coloque a população: ");
         scanf("%d", &populacao01);
       printf("os pontos turisticos: ");
-        scanf("%d", &pontos_turistico01);
+        scanf("%d", &pontos_tu01);
       printf("a área: ");
         scanf("%f", &area01);
       printf("o PIB: ");
@@ -33,7 +33,15 @@ int main(){
 
     printf("==== Parabéns você terminou uma carta !==== \n Agora vamos para a segunda carta\n");
 
+    /*VARIAVEIS CARTA B02*/
+
+    char estado02[20], codigo_carta02[5], nome cidade02[20];
+    int populacao02, pontos_tu02;
+    float area02, pib02;
+
     /*CARTA B02*/
+
+
 
     printf("Selecione o estado: ");
       scanf("%s", estado02);
@@ -45,7 +53,7 @@ int main(){
     printf("por favor coloque a populacao: ");
       scanf("%d", &populacao02);
     printf("os pontos turisticos: ");
-      scanf("%d", &pontos_turisticos02);
+      scanf("%d", &pontos_tu02);
     printf("a área: ");
       scanf("%f", &area02);
     printf("o PIB: ");
@@ -63,7 +71,7 @@ int main(){
     printf("População: %dmil\n", populacao01);
     printf("Àrea: %.2fkm²\n", area01);
     printf("PIB: R$%.2f\n", pib01);
-    printf("Número de pontos turisticos: %d\n", pontos_turistico01);
+    printf("Número de pontos turisticos: %d\n", pontos_tu01);
 
     /*CARTA B02*/
 
@@ -73,7 +81,7 @@ int main(){
     printf("População: %dmil\n", populacao02);
     printf("Àrea: %.2fkm²\n", area02);
     printf("PIB: R$%.2f\n", pib02);
-    printf("Número de pontos tursiticos: %d\n", pontos_turistico02);
+    printf("Número de pontos tursiticos: %d\n", pontos_tu02);
 
     return 0;
     

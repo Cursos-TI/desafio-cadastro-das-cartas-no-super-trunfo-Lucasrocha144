@@ -4,7 +4,7 @@ int main(){
 
     /*Variaveis carta A01*/
 
-    char estado 01 [20], codigo_carta01[5], nome_cidade01[20];
+    char estado01 [20], codigo_carta01[5], nome_cidade01[20];
     int populacao01, pontos_tu01;
     float area01, pib01;
 
@@ -35,7 +35,7 @@ int main(){
 
     /*VARIAVEIS CARTA B02*/
 
-    char estado02[20], codigo_carta02[5], nome cidade02[20];
+    char estado02[20], codigo_carta02[5], nome_cidade02[20];
     int populacao02, pontos_tu02;
     float area02, pib02;
 
@@ -65,7 +65,7 @@ int main(){
 
     /*CARTA A01*/
 
-    printf("Estado: %s\n", estado01);
+    printf("\n Estado: %s\n", estado01);
     printf("Código da carta: %s\n", codigo_carta01);
     printf("Nome da cidade: %s\n", nome_cidade01);
     printf("População: %dmil\n", populacao01);
@@ -75,7 +75,7 @@ int main(){
 
     /*CARTA B02*/
 
-    printf("Estado: %s\n", estado02);
+    printf("\n Estado: %s\n", estado02);
     printf("Código da carta: %s\n", codigo_carta02);
     printf("Nome da cidade: %s\n", nome_cidade01);
     printf("População: %dmil\n", populacao02);

@@ -7,6 +7,9 @@ int main(){
     char estado01 [20], codigo_carta01[5], nome_cidade01[20];
     int populacao01, pontos_tu01;
     float area01, pib01;
+    float densi01;
+    float pibpercapita01;
+
 
     printf(" ** Bem vindo ao jogo super trunfo! **\n");
 
@@ -27,7 +30,10 @@ int main(){
         scanf("%f", &area01);
       printf("o PIB: ");
         scanf("%f", &pib01);
-        
+      printf("a densidade: ");
+        scanf("%f", &densi01);
+      printf("o pibpercapita: ");
+        scanf("%f", &pibpercapita01); 
         
     /*informação para o usuario de troca de carta*/
 
@@ -38,6 +44,9 @@ int main(){
     char estado02[20], codigo_carta02[5], nome_cidade02[20];
     int populacao02, pontos_tu02;
     float area02, pib02;
+    float densi02;
+    float pibpercapita02;
+
 
     /*CARTA B02*/
 
@@ -58,6 +67,11 @@ int main(){
       scanf("%f", &area02);
     printf("o PIB: ");
       scanf("%f", &pib02);
+    printf("a densidade: ");
+      scanf("%f", &densi02);
+    printf("o pibpercapita: ");
+      scanf("%f", &pibpercapita02);
+
 
     /*PARA O TERMINAL*/
 
@@ -72,6 +86,8 @@ int main(){
     printf("Àrea: %.2fkm²\n", area01);
     printf("PIB: R$%.2f\n", pib01);
     printf("Número de pontos turisticos: %d\n", pontos_tu01);
+    printf("Densidade: %f\n", densi01);
+    printf("Pibpercapita: %f\n", pibpercapita01);
 
     /*CARTA B02*/
 
@@ -82,6 +98,9 @@ int main(){
     printf("Àrea: %.2fkm²\n", area02);
     printf("PIB: R$%.2f\n", pib02);
     printf("Número de pontos tursiticos: %d\n", pontos_tu02);
+    printf("Densidade: %f\n", densi02);
+    printf("Pibpercapita: %f\n", pibpercapita02);
+
 
     return 0;
     
